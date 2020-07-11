@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.camera{
+   margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    width: 120px;
+    height: 120px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    border-radius: 20px;
+    position: relative;
+}
+.rectangle{
+    width: 90px;
+    height: 90px;
+    box-sizing: border-box;
+    border: 6px solid #fff;
+    margin: 0 auto;
+    position: relative;
+    top: calc(50% - 45px);
+    z-index: 666;
+    border-radius: 28px;
+}
+.dot{
+    height: 8px;
+    width: 8px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 80%;
+    margin-top: 10px;
+}
+.circle{
+    width: 45px;
+    height: 45px;
+    box-sizing: border-box;
+    border: 6px solid #fff;
+    position: absolute;
+    left: 50%;
+    margin-left: -22px;
+    margin-top: 38px;
+    border-radius: 50%;
+}
